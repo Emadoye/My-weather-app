@@ -62,6 +62,11 @@
   position: relative;
   top: -32px;
 }
+.link {
+  position: relative;
+  font-size: small;
+  left: 300px;
+}
 li {
   list-style: none;
 }
