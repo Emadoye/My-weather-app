@@ -27,6 +27,7 @@
 .cloud-icon {
   font-size: 50px;
 }
+
 .atmosphere {
   text-align: right;
 }
@@ -57,10 +58,15 @@
 .temperature {
   font-size: 54px;
   font-weight: 400px;
+  position: relative;
+  right: 20px;
 }
 .units {
   position: relative;
   top: -32px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: 400px;
 }
 .link {
   position: relative;
@@ -73,4 +79,8 @@ li {
 ul {
   position: relative;
   left: 310px;
+}
+img {
+  position: relative;
+  bottom: 15px;
 }

@@ -36,9 +36,10 @@ function displayWeatherCondition(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   cityElement.innerHTML = response.data.name;
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
-  iconElement.setAttribute =
-    ("src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function searchCity(city) {
