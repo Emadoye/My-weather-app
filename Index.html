@@ -31,7 +31,7 @@
         <button type="submit" class="btn btn-primary" id="temperatureInput">
           Search
         </button>
-       
+        
       </form>
       <h1 id="city"></h1>
       <div id="date" id="presentTime">Saturday 1:09am</div>
@@ -40,13 +40,16 @@
       <div class="row">
         <div class="col-6">
           <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
+            src="http://openweathermap.org/img/wn/10n@2x.png"
             alt="cloudy-icon"
             id="icon"
           />
 
           <span class="temperature" id="temperature"></span
-          ><span class="units">°C </span>
+          ><span class="units">
+            <a href="#" id="celsius-link" class="active">°C</a>  |
+            <a href="#" id="fahrenheit-link" class="sack">°F</a>
+          </span>
         </div>
         <div class="col">
           <ul>
