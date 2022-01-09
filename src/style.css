@@ -1,8 +1,8 @@
 .project {
   background-image: linear-gradient(
     to top,
-    rgb(147, 98, 175) 0%,
-    rgb(114, 175, 211) 100%
+    rgb(241, 237, 243) 0%,
+    rgb(112, 15, 99) 100%
   );
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -61,12 +61,22 @@
   position: relative;
   right: 20px;
 }
+.active {
+  color: white;
+  text-decoration: none;
+}
+.sack {
+  text-decoration: none;
+}
 .units {
   position: relative;
   top: -32px;
   right: 15px;
   font-size: 30px;
   font-weight: 400px;
+}
+.units:hover {
+  cursor: pointer;
 }
 .link {
   position: relative;
