@@ -1,7 +1,7 @@
 .project {
   background-image: linear-gradient(
     to top,
-    rgb(241, 237, 243) 0%,
+    rgb(208, 189, 218) 0%,
     rgb(112, 15, 99) 100%
   );
   border-bottom-left-radius: 10px;
@@ -24,37 +24,10 @@
   margin: auto;
 }
 
-.cloud-icon {
-  font-size: 50px;
-}
-
 .atmosphere {
   text-align: right;
 }
-.first {
-  position: relative;
-  left: 3px;
-  top: 22px;
-  font-size: 20px;
-}
-.second {
-  position: relative;
-  left: 250px;
-  top: 7px;
-  font-size: 20px;
-}
-.third {
-  position: relative;
-  left: 490px;
-  top: -10px;
-  font-size: 20px;
-}
-.fourth {
-  position: relative;
-  left: 740px;
-  top: -30px;
-  font-size: 20px;
-}
+
 .temperature {
   font-size: 54px;
   font-weight: 400px;
@@ -83,6 +56,26 @@
   font-size: small;
   left: 300px;
 }
+.weather-forecast-temperature-max {
+  position: relative;
+  bottom: 16px;
+  font-size: 13px;
+  font-weight: 900;
+}
+.weather-forecast-temperature-min {
+  position: relative;
+  bottom: 16px;
+  font-size: 13px;
+}
+.weather-forecast-date {
+  position: relative;
+  left: 10px;
+}
+.picture {
+  position: relative;
+  bottom: 15px;
+}
+
 li {
   list-style: none;
 }
@@ -91,6 +84,4 @@ ul {
   left: 310px;
 }
 img {
-  position: relative;
-  bottom: 15px;
 }
