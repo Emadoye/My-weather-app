@@ -26,7 +26,7 @@ function formatDate(date) {
 function formatDay(timestemp) {
   let date = new Date(timestemp * 1000);
   let day = date.getDay();
-  let days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri"];
+  let days = ["Sun", "Mon", "Tues", "Wed", "Thu", "Fri", "Sat"];
 
   return days[day];
 }
